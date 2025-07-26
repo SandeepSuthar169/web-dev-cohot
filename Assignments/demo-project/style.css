@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    /* width: 100vw; */
+    background-color: #414141;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 90px;
+    color: white;
+
+}
+nav div ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    cursor: pointer;
+
+}
+nav div button {
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;   
+}
+nav div button:hover {
+    background-color: #ffc800;
+    color: rgb(0, 0, 0);
+}
+/* ------------------------------------- */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #414141;
+    color: aliceblue;
+    padding: 40px 80px;
+}
+.hero div {
+    width: 50%;
+}
+.hero div h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.hero div p {
+    font-size: 1.5rem;
+    color: #e7e6e0;
+    margin-bottom: 1rem;
+}
+.hero div button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+}
+.hero div img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 10px #7e7c7c;
+}
+
+.hero div img:hover {
+    transform: rotate(5deg);
+    transition:  all 0.5s ease-in-out;
+}
+/* ------------------------------------- */
+
+.logo-text {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 32px;
+    color: #ffcd18;
+}
+.logo {
+    display: flex;
+    margin: 20px 10% ;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 40px 80px;
+
+}
+.logo div img {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+ /* ----------------------------- */
+
+ .card-s {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    margin: 20px 10%;
+    border: 2px solid #000000;
+    padding: 40px 80px;
+    box-shadow: 0 0 7px black;
+ }
+ .card-s  img {
+    width: 30%;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 10px;
+ }
+
+ .card-s div {
+    border: 1px solid black;
+    width: 32%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px ;
+    box-shadow: 0 0 7px black;
+ }
+ .card-s h1 {
+    color: #383838;
+    margin: 20px 0;
+ }
+ .card-s p {
+    color: #535353;
+    margin: 20px 0;
+ }
