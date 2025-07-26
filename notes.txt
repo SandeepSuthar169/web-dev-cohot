@@ -1,0 +1,31 @@
+1. Array Properties
+
+1.1
+- length : length of the array
+
+1.2 Adding/removing elements 
+
+- push() : add one or more elements to the end of an array.
+- unshift() : add one or more elements to the beginning of an array.
+- pop() : remove an element from the end of an array.
+- shift() : remove the first element from an array.
+- splice() : manipulate elements in an array by deleting, inserting, and replacing elements.
+- slice() : copy elements of an array.
+
+1.3 Finding elements
+- indexOf() : return the first index of the matching element in an array.
+- lastIndexOf() : return the last index of the matching element in an array.
+- includes() : check if an element is in an array.
+- find() : find an element in an array
+- findIndex() : find the index of an element in an array
+
+1.4  High-order methods
+- map() – transform array elements.
+- filter() – filter elements in an array.
+- reduce() – reduce elements of an array to a value.
+- reduceRight() – reduce elements of an array from right to left to a value.
+- every() – check if every element in an array passes a test.
+- some() – check if at least one element in an array passed a test.
+- sort() – sort elements in an array.
+- forEach() – loop through array elements.
+- with() – return a new array with an element at a specified index replaced by a new one.
