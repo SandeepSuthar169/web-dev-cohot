@@ -43,17 +43,44 @@ if(!Array.prototype.I_Filter){
 const num = [1, 2, 3, 4, 5, 6, 6, 8, 9, 10]
 const n1 = num.I_Filter((n) => n % 2 == 0)
 // console.log(n1);
-//------------------ sum ---------------------------
 
-function minValues (...num) {
-    let x = num[0]
-    for(let i = 0; i< num.length; i++){
-        if( num[i] < x){
-         x = num[i]
+
+
+//------------------ MIN.MATH ---------------------------
+if(!Array.prototype.My_min){
+    Array.prototype.My_min = function minValues () {
+    
+        let min = this[0]
+        for(let i = 0; i< this.length; i++){
+            if( this[i] < min){
+            min = this[i]
         }
-     }
-        return x
-
+    }
+    return min
+    
+    }
 }
-console.log(minValues(4, 2, 8, 1, 0)); // Output: -1
-// console.log(minValues()); 
+// console.log(minValues(4, 2, 8, 1, 0));
+const array1 = [1, 2, 3, 4, 5, 6];
+const n4 = array1.My_min();
+console.log(n4); // Output: 6
+
+//------------------- MAX.MATH ------------------------------
+
+if (!Array.prototype.My_Max) {
+  Array.prototype.My_Max = function () {
+
+    let max = this[0];
+    for (let i = 1; i < this.length; i++) {
+      if (this[i] > max) {
+        max = this[i];
+      }
+    }
+    return max;
+  };
+}
+
+const array = [1, 2, 3, 4, 5, 6];
+const n5 = array.My_Max();
+console.log(n5); // Output: 6
+
