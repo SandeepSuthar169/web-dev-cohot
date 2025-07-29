@@ -1,4 +1,4 @@
-let salesData = [
+ let salesData = [
   { product: "Laptop", price: 1200 },
   { product: "Smartphone", price: 800 },
   { product: "Headphones", price: 150 },
@@ -20,7 +20,7 @@ let lowStockItems = inventory.filter((item) => {
   return item.stock < 50;
 });
 // console.log(lowStockItems);
-
+ 
 let userActivity = [
   { user: "Alice", activityCount: 45 },
   { user: "Bob", activityCount: 12 },

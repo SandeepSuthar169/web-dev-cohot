@@ -46,8 +46,8 @@ let updatedChaiRecepie = {
   instruction: "Boil water, add tea leaves, mil, sugar, spices with some love",
 };
 
-let { name, myingredients } = chaiRecipe;
-let [firstChai, secondChai] = chaiTypes;
+let {name, myingredients } = chaiRecipe;   // object destructuring 
+let [firstChai, secondChai] = chaiTypes;   // array destructuring  
 
 console.log(myingredients);
 console.log(secondChai);
