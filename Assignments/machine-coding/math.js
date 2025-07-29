@@ -63,7 +63,7 @@ if(!Array.prototype.My_min){
 // console.log(minValues(4, 2, 8, 1, 0));
 const array1 = [1, 2, 3, 4, 5, 6];
 const n4 = array1.My_min();
-console.log(n4); // Output: 6
+// console.log(n4); // Output: 6
 
 //------------------- MAX.MATH ------------------------------
 
@@ -82,5 +82,13 @@ if (!Array.prototype.My_Max) {
 
 const array = [1, 2, 3, 4, 5, 6];
 const n5 = array.My_Max();
-console.log(n5); // Output: 6
+// console.log(n5); // Output: 6
 
+//-----------Math.abs() --------------------------------------
+function absolute(value){
+    if(value < 0){
+        value = value * -1;
+    }
+    return value
+}
+console.log(absolute(-5));
