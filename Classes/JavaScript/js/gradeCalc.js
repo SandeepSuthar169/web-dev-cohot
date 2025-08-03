@@ -4,7 +4,8 @@
 // 60 >= D
 // F
 
-// factory template
+// factory tempate
+
 function calculateGrade(score) {
   if (score >= 90) {
     return "A";
@@ -22,4 +23,4 @@ function calculateGrade(score) {
 let grade = calculateGrade(80);
 console.log(grade);
 
-console.log(calculateGrade(70));
+console.log(calculateGrade(70))

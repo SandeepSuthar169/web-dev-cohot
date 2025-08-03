@@ -1,13 +1,14 @@
-let numberofGuest = 4;
+let numberofGuest = -1;
 
 let pizzaSize;
+
 // small <= 2
 // medium <= 5
-// large
+//large
 
 // 5 <= 5
 
-if (numberofGuest <= 2) {
+if (-1 <= 2) {
   pizzaSize = "small";
 } else if (numberofGuest <= 5) {
   pizzaSize = "medium";

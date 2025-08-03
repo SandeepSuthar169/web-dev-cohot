@@ -4,7 +4,7 @@ let weather = "cloudy";
 let result = weather === "rainy";
 
 if (weather === "rainy") {
-  console.log("it's raining, umbrella le jaana bhai");
+  console.log("it's raining, unbrella le jaana bhai");
 } else if (weather === "cloudy") {
   console.log("jacket le ja bhai");
 } else if (weather === "sunny") {
