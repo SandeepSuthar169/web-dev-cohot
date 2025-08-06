@@ -15,3 +15,9 @@ class Person {
 
 const p1 = new Person('Piyush', 'Garg');
 const p2 = new Person('Akash', 'Kadlag');
+
+//                                                            |-> Very IMP
+//two types of task queues in js                              |
+// Callback Task queues(MTQ) | Task Queue   /-\ event Handlers, setTimeOut callback and i/o operations 
+//MIcro Task queue (CTQ)  /-\ short-lived tasks, promises, mutation observation 
+   
