@@ -48,3 +48,36 @@ console.log(newArr[-1]);
 newArr[-1] = 22;
 console.log(newArr);
 console.log(arr);
+//--------------------------------------------------
+
+function sumNum(totalValue = {}){
+  return new Proxy(totalValue, {
+      get(target, prop){
+      
+      
+//-------------------------------------------------------
+          if(prop === 'sum'){
+              return Object.values(target).reduce((acc, val) => acc + val, 0)
+          }
+//-------------------------------------------------------
+      
+      return target[prop]
+      },
+      set(target, prop, value){
+      
+      
+//-------------------------------------------------------
+          console.log(`${value}`);
+ //-------------------------------------------------------            
+      
+      target[prop] = value;
+          return true
+      }
+  })
+}
+
+const obj = sumNum()
+obj.a = 10
+obj.b = 20
+
+console.log(obj.sum);
