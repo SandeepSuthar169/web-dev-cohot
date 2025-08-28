@@ -3,7 +3,7 @@ function totalCupcakes(trayOne, trayTwo) {
     // Return the sum of trayOne and trayTwo
     return  trayOne + trayTwo
 } 
-totalCupcakes(12, 23)
+totalCupcakes(12, 23) 
 //-------------------------------------------
 
 // 2
