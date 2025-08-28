@@ -17,6 +17,12 @@ const images = [
   },
 ];
 
+// const prevButton = document.getElementById('prevButton')
+const slider_img = document.getElementById('slider-img')
+const slider_caption = document.getElementById('slider-caption')
 
-const prevImg = document.querySelector('#prevButton')
-const nextImg = document.querySelector('#nextButton')
+
+for(let i = 0; i < images.length; i++){
+    slider_img.src = images[i].url
+    slider_caption.textContent = images[i].caption
+}
